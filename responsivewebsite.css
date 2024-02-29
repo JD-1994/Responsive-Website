@@ -1,0 +1,279 @@
+body {
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px;
+}
+
+#logo {
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  margin-right: 10px;
+}
+
+.titlepage {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+
+  font-family: "Lobster Two", sans-serif;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-right: 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.about-section {
+  text-align: center;
+  max-width: 600px;
+  margin: 10px auto;
+  font-size: 15px;
+  font-family: "Afacad", sans-serif;
+}
+
+.aboutus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 60px;
+  padding-top: 80px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.furniture {
+    display: flex;
+    /* padding-top: 10%; */
+    width: 100%;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+
+  margin: auto;
+}
+
+.item-image{
+width: 100%;
+}
+.item{
+
+}
+
+.item-image img{
+width: 100%;
+
+}
+.caption {
+  
+  font-weight: bold;
+  
+  font-size: 30px;
+  padding-top: 10px;
+  color: #333;
+  font-family: "Afacad", sans-serif;
+}
+.description {
+  display: flex;
+  font-size: 15px;
+  padding-top: 10px;
+  width: 300px;
+  font-family: "Afacad", sans-serif;
+}
+
+ .team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 40px;
+  padding-top: 80px;
+
+  font-family: "Raleway", sans-serif;
+}
+.ourteam {
+  text-align: center;
+  max-width: 600px;
+  margin: 10px auto;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+}
+.headshots {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 30px;
+}
+.headshots img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.name {
+  display: flex;
+  font-weight: bold;
+
+  font-size: 20px;
+  padding-top: 10px;
+
+  font-family: "Afacad", sans-serif;
+}
+
+.role {
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+
+  font-family: "Afacad", sans-serif;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding-top: 5px;
+  borer-radius: 50%;
+  padding-bottom: 50px;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+footer {
+  background-color: black;
+  color: grey;
+  padding: 20px;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  font-family: "Afacad", sans-serif;
+  font-weight: bold;
+
+  gap: 30px;
+}
+
+.social-icon {
+  display: flex;
+
+  gap: 5px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.address {
+  text-align: left;
+  font-family: "Afacad", sans-serif;
+}
+
+.email {
+  align-items: center;
+  text-align: center;
+  font-family: "Afacad", sans-serif;
+}
+.company,
+.e-mail,
+.phonenumbers {
+  color: white;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-family: "Afacad", sans-serif;
+}
+
+.phone {
+  align-items: right;
+  text-align: right;
+  font-family: "Afacad", sans-serif;
+}
+hr {
+  border: none;
+  border-top: 1px solid grey;
+  margin: 10px 0;
+}
+
+.copyright {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Afacad", sans-serif;
+  text-align: center;
+} 
+
+@media only screen and (max-width: 1023px) {
+    .furniture {
+        flex-direction: column;
+        }
+        
+        .item-image{
+        width: 100%;
+        }
+        .item{
+          display: flex;
+          align-items: center;
+        
+        }
+        
+        .item-image img{
+        width: 100%;
+        
+        }
+        
+        
+        
+          .headshots {
+        
+        
+         
+            flex-wrap: wrap;
+         
+            padding-top: 0px;
+          }
+        
+          .headshots img {
+            width: 300px;
+            height: 300px;
+        
+          }
+        
+        }
+
+/* Responsive Styles */
+@media only screen and (max-width: 767px) {
+    .item{
+        flex-direction: column;
+       }
+}
